@@ -1,4 +1,46 @@
-.htext{
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.header{
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  z-index: 10000;
+  box-shadow:  0px 3px 4px rgba(0, 0, 0, 0.3) ;
+}
+.ctext{
+    display: flex; 
+    color: rgba(0, 0, 0); 
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.linkText{
+  font-family: 'Roboto', sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+  color: black;
+  text-decoration: none;
+  text-shadow: 0px 4px 5px #00000056;
+ 
+}
+.separador{
+   border-right: 2px solid rgb(0, 0, 0);
+    padding: 0 10px;
+    width: 0px;
+    height: 28px;
+    margin-top: 21px;
+}
+.logo{
+    margin: 10px;
+    margin-left: 20px ;
+    margin-bottom: 20px;
+    width: 61px;
+    height: 58px;
+    border-radius: 10px; 
+     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
 
 }

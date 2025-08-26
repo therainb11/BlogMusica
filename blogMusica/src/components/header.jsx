@@ -1,17 +1,19 @@
 import { Link } from 'react-router-dom';
+import styles from '../styles/header.module.css';
 function Header() {
   return (
-    <header className="header">
-      <h1 className="site-title">Blog de Edgar</h1>
-      <nav className="main-nav" aria-label="Navegación principal">
-        <ul>
-          <li><Link to="/inicio">Inicio</Link></li>
-          <li><Link to="/portafolio">Portafolio</Link></li>
-          <li><Link to="/blog">Blog</Link></li>
-          <li><Link to="/contacto">Contacto</Link></li>
-        </ul>
+    <header className={styles.header}>
+      <img src = "../src/assets/Logo.jpeg" alt = "LOGO" className={styles.logo}/>
+      <nav className={styles.ctext} aria-label="Navegación principal">
+          <Link to="/inicio" className={styles.linkText}>Inicio</Link>
+          {/* span, elemento en linea, no rompe el parrafo */}
+          <span className={styles.separador}>   </span>
+          <Link to="/portafolio" className={styles.linkText}>Sobre nosotros</Link>
+          <span className={styles.separador}>   </span>
+          <Link to="/contactanos" className={styles.linkText}>Contactanos</Link>
 
       </nav>
+
     </header>
   );
 }
