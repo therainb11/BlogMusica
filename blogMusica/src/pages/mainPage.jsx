@@ -1,5 +1,6 @@
 // pagina principal
 import Header from "../components/header";
+import Footer  from "../components/footer";
 export default function mainPage() {
     return (
         <div >
@@ -13,7 +14,7 @@ export default function mainPage() {
             <main >
            
             </main>
-
+            <div><Footer/></div>
         </div>
     );
     }
