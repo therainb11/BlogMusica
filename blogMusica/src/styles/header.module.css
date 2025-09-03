@@ -88,7 +88,7 @@
 .linkText:hover{
   background-color: #1d2e4721 ;
   border-radius: 5px;
-  backdrop-filter:unset;
+ /*  backdrop-filter:unset; */
   padding: 10px;
   
 }

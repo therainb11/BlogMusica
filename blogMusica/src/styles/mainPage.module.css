@@ -1,0 +1,27 @@
+.pageWrapper{
+    display: flex;
+    min-height: 100vh;
+
+}
+.mainContent{
+    display: flex;
+    flex:1;
+}
+.slogan{
+    display: flex;
+    margin-top: 5rem;
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 898px;
+    background-color: #353131;
+    align-items: center;
+    justify-content: center;
+}
+.imagenSlogan{
+    align-items: center;
+    justify-content: center;
+    height: 16rem;
+    width: 16rem;
+
+}

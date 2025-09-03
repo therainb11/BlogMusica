@@ -28,10 +28,10 @@ function Header() {
           <Spotify size={29} marginR={5} /> {' '} PLAYLIST {' '}
         </button>
         <div className={styles.contenedorRedes}>
-          <a href='https://www.tiktok.com/@rainba11'> <LineIcon name= "tiktok" size={28} color = "#343C54" /> </a>
+          <a href='https://www.tiktok.com/@rainba11' target='_blank'> <LineIcon name= "tiktok" size={28} color = "#343C54" /> </a>
         
-          <a href=''> <X size = {28}  margin = {10}/></a>
-        <a href=''> <LineIcon size= {28} name = "instagram" color = "#343c54"/></a>
+          <a href='' target='_blank'> <X size = {28}  margin = {10}/></a>
+        <a href='' target= '_blank'> <LineIcon size= {28} name = "instagram" color = "#343c54"/></a>
         </div>
       </div>
     </header>

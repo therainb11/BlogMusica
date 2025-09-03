@@ -1,20 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 .footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    position: fixed;
+   justify-content: center;  
+   align-items: center;
     background-color: #2F2D2D;
     width:100%;
-    bottom: 0;
-
+    height: 15rem ;
+    bottom: 0; 
+    left: 0;
     
 }
-.segundoFooter{
+.logo {
   display: flex;
-    flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  margin-bottom: 4rem ;
+  width: 101px;
+  height: 86px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+   z-index: 1; 
+}
+.segundoFooter{
+   display: flex; 
+   justify-content:center;
+    /* Da forama de sobre */
+  clip-path: polygon(0 0, 50% 45%, 100% 0, 100% 100%, 0% 100%);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 12rem;
     background-color: #6A6767;
     width:100%;
-    bottom: 0;  
-    height: 25px;
 }
 .textoCopy{
-    color: #2F2D2D;
+    justify-content: center;
+    display: flex;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif ;
+    font-size: 15px;
+    align-items: center;
+    padding-bottom: 2rem;
+
+}
+.contenedorBotones{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    gap: 40px;
+    padding: 0 80px;
+    
+}
+.botonLegal{
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 90px;
+    align-items: center;
+    background-color: #393434;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #000000;
+     padding: 5px; 
+    cursor: pointer;
+
 }

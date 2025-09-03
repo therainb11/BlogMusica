@@ -1,20 +1,21 @@
 // pagina principal
 import Header from "../components/header";
 import Footer  from "../components/footer";
-export default function mainPage() {
+import styles from "../styles/mainPage.module.css"
+export default function MainPage() {
     return (
-        <div >
+        <div className={styles.pageWrapper}>
             <div>
             <Header/>
             </div>
-            <div className="slogan">
-             
+            <div className= {styles.slogan}>
+            <img src="assets/dj-slogan-jpeg" />
 
             </div>
-            <main >
+            <main className={styles.mainContent} >
            
             </main>
-            <div><Footer/></div>
+            <Footer/>
         </div>
     );
     }
