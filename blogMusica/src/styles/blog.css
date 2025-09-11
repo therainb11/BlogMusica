@@ -1,11 +1,49 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sixtyfour&display=swap');
 /* Estilos del texto para el blog */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.grid-container{
+ /*  box-sizing: border-box; */
+  padding-top: 3rem;
+  display: grid;
+  grid-template-areas: 
+  "header header"
+  "nav nav"
+  "main main"
+  "footer footer";
+  grid-template-columns: 2fr 1fr ;
+  grid-template-rows:auto;
+  gap: 30px;
+  margin: 0px;
+}
+
+header{grid-area:header;}
+nav   {grid-area: nav;}
+main  {grid-area: main;}
+/* aside {grid-area: aside;} */
+footer{grid-area: footer;}
 .title{
-    font-size: 32px;
+    font-size: 40px;
+    font-family: "Passion One",sans-serif;
+    gap: 2rem;
 }
 .subtitle{
     font-size: 24px;
 }
-.slogan{
-    margin-top: 10px;
+
+
+@media (max-width:768px){
+  .grid-container{
+    grid-template-areas: 
+    "header"
+    "nav"
+    "main"
+   /*  "aside" */
+    "footer";
+    grid-template-columns: 1fr;
+  }
 
 }
