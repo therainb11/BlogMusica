@@ -10,7 +10,7 @@ export default function MainPage() {
         <Header />
       </div>
       <div className={styles.slogan}>
-        <p className={styles.textSlogan}> THE MUSIC IS FOR EVERY ONE</p>
+        <p className={styles.textSlogan}> THE MUSIC IS FOR EVERYONE</p>
         <img
           className={styles.imagenSlogan}
           src="../src/assets/imagenSlogan.jpeg"
