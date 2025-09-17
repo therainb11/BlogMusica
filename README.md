@@ -8,6 +8,5 @@ Componentes reutilizables en React.
 
 Tecnologias utilizadas:
 React.
-JavaScript.
 HTML & CSS.
 Git y GitHub.
