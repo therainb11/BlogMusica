@@ -11,6 +11,7 @@
     height: 16rem ;
     bottom: 0px; 
     left: 0px;
+     right: 0px;
     /* flex: 1; */
 
 }
@@ -31,7 +32,7 @@
    display: flex; 
    justify-content:center;
     /* Da forama de sobre */
-  clip-path: polygon(0 0, 50% 45%, 100% 0, 100% 100%, 0% 100%);
+   clip-path: polygon(0 0, 50% 45%, 100% 0, 100% 100%, 0% 100%);
     bottom: 0px;
     left: 0px;
     right: 0px;

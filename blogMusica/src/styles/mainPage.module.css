@@ -37,7 +37,7 @@
 .textSlogan {
   z-index: 2;
      font-family: "SixtyfourLocal", sans-serif;
-  font-size: 90px;
+  font-size: 95px;
   color: white;
   -webkit-text-stroke: 1px ;
   font-weight: 400;
@@ -123,5 +123,6 @@
   .textSlogan:hover~.imagenSlogan{
     filter:blur(5px)
   }
+
 
 
